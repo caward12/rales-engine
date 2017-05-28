@@ -25,6 +25,7 @@ Technology: Ruby, Rails, PostgresSQL, and RSpec.
 all endpoints can be accessed through `/api/v1`
 
 *Merchants*
+
 `/merchants` lists all merchants
 
 `/merchants/:id` displays a single merchant that matches the :id passed in
@@ -53,7 +54,8 @@ all endpoints can be accessed through `/api/v1`
 
 
 
-*Transactions*
+*Transactions* 
+
 `/transactions` lists all transactions
 
 `/transactions/:id` displays a single transaction that matches the :id passed in
@@ -67,17 +69,26 @@ all endpoints can be accessed through `/api/v1`
 `/transactions/random` returns a random single transaction record
 
 *Customers*
+
 `/customers` lists all customers
+
 `/customers/:id` displays a single customer that matches the :id passed in
+
 `/customers/:id/invoices` returns a collection of associated invoices for that customer
+
 `/customers/:id/transactions` returns a collection of associated transactions for that customer
+
 `/customers/:id/favorite_merchant` returns a merchant where the customer has conducted the most successful transactions
+
 `/customers/find?parameters` returns a single customer record that matches the parameters passed in. You can search via id, first_name, last_name, created_at and updated_at
+
 `/customers/find_all?parameters`returns all customer records that match the parameters passed in. You can search via id, first_name, last_name, created_at and updated_at
+
 `/customers/random` returns a random single customer record
 
 
 *Invoices*
+
 `/invoices` lists all invoices
 
 `/invoices/:id` displays a single invoice that matches the :id passed in
@@ -100,6 +111,7 @@ all endpoints can be accessed through `/api/v1`
 
 
 *Invoice Items*
+
 `/invoice_items` lists all invoice items
 
 `/invoice_items/:id` displays a single invoice item that matches the :id passed in
@@ -116,6 +128,7 @@ all endpoints can be accessed through `/api/v1`
 
 
 *Items*
+
 `/items` lists all items
 
 `/items/:id` displays a single item that matches the :id passed in
