@@ -20,11 +20,11 @@ Technology: Ruby, Rails, PostgresSQL, and RSpec.
 
 7. Enjoy.
 
-**Endpoints**
+##Endpoints##
 
 all endpoints can be accessed through `/api/v1`
 
-*Merchants*
+**Merchants**
 
 `/merchants` lists all merchants
 
@@ -54,7 +54,7 @@ all endpoints can be accessed through `/api/v1`
 
 
 
-*Transactions* 
+**Transactions** 
 
 `/transactions` lists all transactions
 
@@ -68,7 +68,7 @@ all endpoints can be accessed through `/api/v1`
 
 `/transactions/random` returns a random single transaction record
 
-*Customers*
+**Customers**
 
 `/customers` lists all customers
 
@@ -87,7 +87,7 @@ all endpoints can be accessed through `/api/v1`
 `/customers/random` returns a random single customer record
 
 
-*Invoices*
+**Invoices**
 
 `/invoices` lists all invoices
 
@@ -110,7 +110,7 @@ all endpoints can be accessed through `/api/v1`
 `/invoices/random` returns a random single invoice record
 
 
-*Invoice Items*
+**Invoice Items**
 
 `/invoice_items` lists all invoice items
 
@@ -127,7 +127,7 @@ all endpoints can be accessed through `/api/v1`
 `/invoice_items/random` returns a random single invoice item record
 
 
-*Items*
+**Items**
 
 `/items` lists all items
 
