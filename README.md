@@ -21,7 +21,7 @@ Technology: Ruby, Rails, PostgresSQL, and RSpec.
 7. Enjoy.
 
 
-##Endpoints
+## Endpoints
 
 all endpoints can be accessed through `/api/v1`
 
